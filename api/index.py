@@ -16,7 +16,7 @@ chatgpt = ChatGPT()
 # domain root
 @app.route('/')
 def home():
-    return 'Hello, World!'
+    return '你好，這是 OPENAPI API 範例!'
 
 @app.route("/webhook", methods=['POST'])
 def callback():
